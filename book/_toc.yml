@@ -1,17 +1,29 @@
 format: jb-book
 root: index
-# parts:
-#   - caption: Name of Part 1
-#     chapters:
-#     - file: path/to/part1/chapter1
-#     - file: path/to/part1/chapter2
-#       sections:
-#       - file: path/to/part1/chapter2/section1
 
 
-#   - caption: Name of Part 2
-#     chapters:
-#     - file: path/to/part2/chapter1
-#     - file: path/to/part2/chapter2
-#       sections:
-#       - file: path/to/part2/chapter2/section1
+
+parts:
+  - caption: Introduction 
+    chapters:
+    - file: notebooks/00-IntroToPlotlyExpress.ipynb 
+  - caption: Numeric Variables Visualization
+    chapters:
+    - file: notebooks/01_OneNumericVariable.ipynb
+    - file: notebooks/02_TwoNumericVariables.ipynb
+    - file: notebooks/03_ThreeNumericVariables.ipynb
+    - file: notebooks/04_SeveralNumericVariables.ipynb
+  - caption: Categorical Variables Visualization
+    chapters:
+    - file: notebooks/05_OneCategoricalVariable.ipynb
+    - file: notebooks/06_TwoCategoricalVariables.ipynb
+    
+  - caption: Numeric and Categorical Variables Visualization
+    chapters:
+    - file: notebooks/07_OneNumericAndOneCategoricalVariables.ipynb
+    - file: notebooks/08_OneCategoricalVariablesSevaralNumericVariables.ipynb
+  - caption:  Map
+    chapters:
+    - file: notebooks/09_ConnectionMap.ipynb
+    - file: notebooks/10_ChoroplethMap.ipynb
+   

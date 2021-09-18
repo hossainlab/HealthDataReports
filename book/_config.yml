@@ -1,11 +1,11 @@
 #######################################################################################
 # Book settings
-title                         : Health Data Reports
+title                         : Interactive Data Visalization with Python
 author                        : Jubayer Hossain
 logo                          : 'logo.png'
 email                         : contact.jubayerhossain@gmail.com
 description: >-
-  Health Data Journal 
+  Interactive Data Visalization with Python
 
 execute:
   execute_notebooks           : cache
@@ -19,7 +19,7 @@ html:
   use_issue_button            : true
 
 repository:
-  url                         : https://github.com/hossainlab/har/
+  url                         : https://github.com/hossainlab/IDV/
   branch                      : master
   path_to_book                : book
 
